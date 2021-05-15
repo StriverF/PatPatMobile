@@ -1,9 +1,9 @@
 {
   "tabBar": {
-    "home": "Shop",
-    "categories": "Categories",
-    "life": "Life",
-    "account": "Account"
+    "home": "首頁",
+    "categories": "分類",
+    "life": "社區",
+    "account": "賬戶"
   },
   "common": {
     "ok": "OK!",

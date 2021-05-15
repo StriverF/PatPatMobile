@@ -2,9 +2,12 @@ import * as Localization from "expo-localization"
 import i18n from "i18n-js"
 import en from "./en.json"
 import ja from "./ja.json"
+import zhHK from "./zh_HK.json"
 
 i18n.fallbacks = true
-i18n.translations = { en, ja }
+i18n.translations = { en, ja, ...{'zh-HK': zhHK}}
+
+console.log(Localization, 'Localization.locale')
 
 i18n.locale = Localization.locale || "en"
 

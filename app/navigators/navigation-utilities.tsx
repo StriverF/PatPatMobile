@@ -37,8 +37,8 @@ export function getActiveRouteName(state: NavigationState | PartialState<Navigat
 }
 
 /**
- * Hook that handles Android back button presses and forwards those on to
- * the navigation or allows exiting the app.
+  * 用于处理Android后退按钮按下并将其转发到的钩子
+  * 导航或允许退出应用程序。
  */
 export function useBackButtonHandler(
   ref: React.RefObject<NavigationContainerRef>,
@@ -51,7 +51,7 @@ export function useBackButtonHandler(
   }, [canExit])
 
   useEffect(() => {
-    // We'll fire this when the back button is pressed on Android.
+    // 我们将在Android上按下“后退”按钮时触发此事件。
     const onBackPress = () => {
       const navigation = ref.current
 

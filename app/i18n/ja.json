@@ -3,5 +3,38 @@
     "ok": "OK 🇯🇵",
     "cancel": "Cancel 🇯🇵",
     "back": "Back 🇯🇵"
+  },
+  "demoScreen": {
+    "windowsReactotronHint": "これが機能しない場合は、Reactotronデスクトップアプリが実行されていることを確認し、アプリをリロードします。",
+    "androidReactotronHint": "これが機能しない場合は、Reactotronデスクトップアプリが実行されていることを確認し、ターミナルからadb reverse tcp：9090 tcp：9090を実行して、アプリをリロードします。",
+    "demoList": "デモリスト",
+    "howTo": "方法",
+    "iosReactotronHint": "これが機能しない場合は、Reactotronデスクトップアプリが実行されていることを確認し、アプリをリロードします。",
+    "macosReactotronHint": "これが機能しない場合は、Reactotronデスクトップアプリが実行されていることを確認し、アプリをリロードします。",
+    "reactotron": "デモリアクトトロン",
+    "tagLine": "おめでとうございます。ここに非常に高度なReactNativeアプリテンプレートがあります。\nこの定型文を活用してください！",
+    "title": "このスタックには何がありますか？",
+    "webReactotronHint": "これが機能しない場合は、Reactotronデスクトップアプリが実行されていることを確認し、アプリをリロードします。"
+  },
+  "errors": {
+    "invalidEmail": "無効な電子メールアドレス。"
+  },
+  "storybook": {
+    "field": "フィールド",
+    "placeholder": "プレースホルダー"
+  },
+  "welcomeScreen": {
+    "continue": "继续",
+    "poweredBy": "IGNITEを搭載",
+    "readyForLaunch": "ローンチの準備ができました。"
+  },
+  "demoListScreen": {
+    "title": "デモリスト"
+  },
+  "tabBar": {
+    "account": "アカウント",
+    "categories": "カテゴリ",
+    "home": "ショップ",
+    "life": "生活"
   }
 }
