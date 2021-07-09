@@ -90,7 +90,7 @@
     "patch-package": "6.2.2",
     "postinstall-prepare": "1.0.1",
     "prettier": "2.2.1",
-    "react-devtools-core": "4.10.1",
+    "react-devtools-core": "4.13.5",
     "react-dom": "16.14.0",
     "react-native-clean-project": "^3.6.3",
     "react-native-web": "0.15.1",
@@ -201,5 +201,8 @@
       "react/prop-types": "off",
       "space-before-function-paren": 0
     }
+  },
+  "resolutions": {
+    "react-devtools-core": "4.13.5"
   }
 }

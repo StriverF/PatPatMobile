@@ -25,6 +25,7 @@ import {
 } from "./navigators"
 import { RootStore, RootStoreProvider, setupRootStore } from "./models"
 import { ToggleStorybook } from "../storybook/toggle-storybook"
+import i18n from "i18n-js"
 
 // This puts screens in a native ViewController or Activity. If you want fully native
 // stack navigation, use `createNativeStackNavigator` in place of `createStackNavigator`:
@@ -62,6 +63,7 @@ function App() {
   // with your own loading component if you wish.
   if (!rootStore) return null
 
+  i18n.locale = rootStore.langStore.i18n.locale
   // otherwise, we're ready to render the app
   return (
     <ToggleStorybook>

@@ -3,12 +3,15 @@ import i18n from "i18n-js"
 import en from "./en.json"
 import ja from "./ja.json"
 import zhHK from "./zh_HK.json"
+// import { useStores } from "../models"
 
 i18n.fallbacks = true
-i18n.translations = { en, ja, ...{'zh-HK': zhHK}}
+i18n.translations = { en, ja, ...{'zh-Hant-HK': zhHK}}
 
 console.log(Localization, 'Localization.locale')
 
+// const { langStore } = useStores()
+// console.log(langStore, 'langStore')
 i18n.locale = Localization.locale || "en"
 
 /**
