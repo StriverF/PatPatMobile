@@ -7,3 +7,5 @@ export * from "./life/life-screen"
 export * from "./account/account-screen"
 
 // export other screens here
+export * from "./search/search-screen"
+export * from "./cart/cart-screen"

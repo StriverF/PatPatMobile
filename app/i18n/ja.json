@@ -2,7 +2,8 @@
   "common": {
     "ok": "OK 🇯🇵",
     "cancel": "Cancel 🇯🇵",
-    "back": "Back 🇯🇵"
+    "back": "Back 🇯🇵",
+    "search": "🔍 検索"
   },
   "demoScreen": {
     "windowsReactotronHint": "これが機能しない場合は、Reactotronデスクトップアプリが実行されていることを確認し、アプリをリロードします。",

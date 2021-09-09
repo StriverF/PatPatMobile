@@ -8,7 +8,8 @@
   "common": {
     "ok": "OK!",
     "cancel": "Cancel",
-    "back": "Back"
+    "back": "返回",
+    "search": "🔍 搜索"
   },
   "errors": {
     "invalidEmail": "Invalid email address."

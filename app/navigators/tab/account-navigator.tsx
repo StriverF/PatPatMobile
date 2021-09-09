@@ -6,7 +6,7 @@
  */
  import React from "react"
  import { createStackNavigator } from "@react-navigation/stack"
- import { AccountScreen } from "../../screens"
+ import { AccountScreen, CartScreen } from "../../screens"
  
  /**
   * This type allows TypeScript to know what routes are defined in this navigator
@@ -21,7 +21,8 @@
   *   https://reactnavigation.org/docs/typescript#type-checking-the-navigator
   */
 export type PrimaryParamList = {
-  account: undefined
+  account: undefined,
+  cart: undefined
 }
  
  // Documentation: https://reactnavigation.org/docs/stack-navigator/
@@ -31,10 +32,11 @@ export type PrimaryParamList = {
    return (
      <Stack.Navigator
        screenOptions={{
-         headerShown: false,
+         headerShown: true,
        }}
      >
        <Stack.Screen name="account" component={AccountScreen} />
+       <Stack.Screen name="cart" component={CartScreen} />
      </Stack.Navigator>
    )
  }

@@ -10,10 +10,18 @@ export const HomeScreen = observer(function HomeScreen() {
   const { langStore } = useStores()
   const mobxStatus = langStore.i18n.locale
   const i18nStatus = i18n.locale
+
+  const switchLang = (lang) => {
+    i18n.locale=lang;
+    console.log(`切换${i18n.locale}`);
+    langStore.saveI18n({locale: lang});
+
+  }
   return (
     <View testID="HomeScreen" style={FULL}>
       <Text>首页页面</Text>
-      <Button title="切换英文" onPress={() => { i18n.locale='zh-Hant-HK';i18n.currentLocale();console.log("切换英文", i18n.locale);langStore.saveI18n({locale: 'zh-Hant-HK'}) }} />
+      <Button title="切换英文" onPress={()=>switchLang('en')} />
+      <Button title="切换中文" onPress={()=>switchLang('zh-Hant-HK')} />
       <Text>Mobx状态：{mobxStatus}</Text>
       <Text>i18n状态：{i18nStatus}</Text>
     </View>
